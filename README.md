@@ -55,15 +55,7 @@ The dataset consists of:
 - Early stopping to prevent overfitting
 - Learning rate reduction on plateau
 - Stratified train-validation split
-
-## Results
-
-The final model achieved:
-
-- **Validation Accuracy**: ~80%+
-- **F1-Score**: Balanced performance on both classes
-- **Architecture**: Bidirectional LSTM with ~500K parameters
-
+  
 ## Files Structure
 
 ```
@@ -153,9 +145,3 @@ This project demonstrates understanding of:
 ---
 
 **Note**: This project was completed as coursework with AI assistance used for articulating explanations and comments, while all core analysis and implementation decisions were made independently.
-
-## Contact
-
-[Student Name]  
-[Course]: Machine Learning  
-[Assignment]: Week 4 NLP Mini-Project
