@@ -1,0 +1,165 @@
+# Cursor Rules for First-Year Master's CS Student Code Style
+
+## Core Philosophy
+
+Write code that demonstrates solid fundamentals with clear, readable logic that a first-year graduate student would produce. Prioritize correctness and clarity over optimization or cleverness.
+
+Do not overuse emojis, code comments, or em-dashes. You must ensure that your writing conforms to these rules.
+
+## Code Style & Structure
+
+### Variable Naming
+
+- Use descriptive, complete variable names (avoid abbreviations unless very common)
+- Prefer `training_data` over `train_data` or `X_train`
+- Use conventional academic naming: `features`, `labels`, `predictions`, `model`
+- Include meaningful prefixes: `num_samples`, `max_iterations`, `current_epoch`
+
+### Function Design
+
+- Keep functions focused and reasonably sized (20-80 lines typically)
+- Use clear, descriptive function names that explain purpose
+- Include reasonable parameter validation without being excessive
+- Prefer explicit return statements over implicit ones
+- Write functions that do one thing well
+
+### Code Organization
+
+- Group related functionality together logically
+- Use standard library imports before third-party imports
+- Include brief comments explaining non-obvious logic
+- Avoid overly clever one-liners - prefer readable multi-step operations
+- Use intermediate variables to break down complex expressions
+
+## Technical Approach
+
+### Algorithm Implementation
+
+- Implement algorithms step-by-step with clear intermediate steps
+- Use standard, well-documented approaches rather than cutting-edge techniques
+- Include basic error checking and edge case handling
+- Prefer explicit loops over complex comprehensions when clarity benefits
+- Show mathematical operations clearly (don't compress into single expressions)
+
+### Data Handling
+
+- Use pandas and numpy in standard, conventional ways
+- Include basic data validation and shape checking
+- Prefer explicit indexing over advanced pandas tricks
+- Use clear variable names for data transformations
+- Include simple sanity checks (print shapes, basic statistics)
+
+### Machine Learning Patterns
+
+- Follow sklearn conventions and patterns closely
+- Use standard train/validation/test splits
+- Include basic performance metrics and evaluation
+- Prefer established preprocessing techniques
+- Use conventional hyperparameter ranges
+
+## Documentation & Comments
+
+### Comment Style
+
+- Include docstrings for functions with basic parameter descriptions
+- Add inline comments for non-obvious logic or mathematical operations
+- Explain the "why" behind algorithmic choices
+- Document assumptions and limitations simply
+- Avoid over-commenting obvious operations
+
+### Code Documentation
+
+- Include brief module-level descriptions
+- Document complex data structures or transformations
+- Explain any mathematical formulas or algorithms used
+- Note data sources and expected formats
+
+## Error Handling & Validation
+
+### Input Validation
+
+- Check for basic input requirements (shape, type, range)
+- Include meaningful error messages that explain the problem
+- Use simple assertion statements for critical assumptions
+- Validate data integrity at key transformation points
+
+### Debugging Support
+
+- Include print statements or simple logging for key checkpoints
+- Use descriptive variable names that aid debugging
+- Structure code to make step-by-step debugging easy
+- Include intermediate result validation
+
+## Libraries & Dependencies
+
+### Library Usage
+
+- Stick to well-established libraries (numpy, pandas, sklearn, matplotlib)
+- Use libraries in their intended, documented ways
+- Avoid experimental or cutting-edge packages
+- Prefer stable, widely-adopted versions
+- Use standard import aliases (np, pd, plt)
+
+### Code Patterns
+
+- Follow conventional patterns from documentation and tutorials
+- Use standard sklearn Pipeline patterns when appropriate
+- Implement common preprocessing steps explicitly
+- Use established evaluation metrics and cross-validation approaches
+
+## Performance & Efficiency
+
+### Optimization Approach
+
+- Prioritize correctness and readability over micro-optimizations
+- Use vectorized operations where natural, but don't force it
+- Include some inefficiencies that prioritize clarity
+- Avoid premature optimization - implement straightforward solutions first
+- Use standard algorithms rather than custom optimized versions
+
+## Academic Characteristics
+
+### Problem Solving Style
+
+- Break complex problems into logical, sequential steps
+- Show work explicitly rather than jumping to conclusions
+- Include exploratory data analysis and basic visualizations
+- Use structured approaches to model development and evaluation
+- Document experimental procedures and results clearly
+
+### Code Structure Patterns
+
+- Use clear main() functions or logical execution flow
+- Separate data loading, preprocessing, modeling, and evaluation
+- Include basic experiment tracking (simple prints or logging)
+- Structure code like academic assignments or research scripts
+- Use conventional academic dataset handling patterns
+
+## Human-like Characteristics
+
+### Natural Coding Habits
+
+- Include some redundant variable assignments for clarity
+- Use slightly verbose approaches that show thinking process
+- Include basic sanity checks and intermediate validations
+- Write loops in straightforward ways rather than using advanced itertools
+- Include comments that show reasoning process
+
+### Realistic Development Patterns
+
+- Build up complex operations from simpler components
+- Include some debugging artifacts (commented print statements)
+- Use conventional naming patterns from textbooks and coursework
+- Show incremental development approach
+- Include basic experimentation and parameter tuning
+
+## Logic & Correctness
+
+### Perfect Logic Requirements
+
+- Ensure all conditional logic is sound and complete
+- Validate all mathematical operations and transformations
+- Check edge cases and boundary conditions thoroughly
+- Ensure proper handling of missing data and outliers
+- Verify algorithmic implementations match theoretical foundations
+- Use proper statistical and mathematical reasoning throughout
